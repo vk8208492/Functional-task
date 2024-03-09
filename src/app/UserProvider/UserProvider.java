@@ -1,6 +1,6 @@
 package app.UserProvider;
 
-import app.User.User;
+import app.entity.User;
 
 import java.util.Arrays;
 import java.util.List;

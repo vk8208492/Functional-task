@@ -1,7 +1,7 @@
 package app.UserHadler;
 
-import app.Output.Output;
-import app.User.User;
+import app.Output.OutPut;
+import app.entity.User;
 
 import java.util.List;
 import java.util.function.Consumer;
@@ -15,6 +15,6 @@ public class UserHadler {
     }
     public Consumer<User> getConsumer(){
         return user ->
-                new Output().getOutput(user.toString());
+                new OutPut().getOutput(user.toString());
     }
 }

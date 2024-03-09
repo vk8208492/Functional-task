@@ -1,4 +1,4 @@
-package app.User;
+package app.entity;
 
 public class User {
 
